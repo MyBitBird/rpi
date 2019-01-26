@@ -25,4 +25,9 @@ http://(your raspberry ip):5000/off/[pinNumber]
 ##### Get current pin status 
 http://(your raspberry ip):5000/status/[pinNumber] 
 
+## Important
+>I used [this](https://github.com/unosquare/raspberryio) project for controlling GPIO and its based on [wiringpi](http://wiringpi.com/) project, so GPIO pins order is diffrent from official Raspberry pins order.
+Checkout [http://wiringpi.com/pins/](http://wiringpi.com/pins/)
+
+
 **Meisam Malekzadeh**
